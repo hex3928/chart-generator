@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .quote {
+        @apply
+            m-1 ml-2 pl-2 md:m-3 md:ml-4 md:pl-4 lg:m-5 lg:ml-6 lg:pl-6
+            border-l-4 rounded
+    }
+}
+
+@layer utilities {
+    .quote-red-500 { @apply border-l-red-500 }
+    .quote-yellow-500 { @apply border-l-yellow-500 }
+    .quote-sky-500 { @apply border-l-sky-500 }
+    .quote-emerald-500 { @apply border-l-emerald-500 }
+}
